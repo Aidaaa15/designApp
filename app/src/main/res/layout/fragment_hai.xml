@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HaiFragment">
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout2"
+       android:layout_width="match_parent"
+       android:layout_height="221dp"
+       android:layout_marginBottom="458dp"
+       android:background="@drawable/bg_bright"
+       app:layout_constraintBottom_toTopOf="@+id/imageView5"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="214dp"
+          android:layout_marginTop="72dp"
+          android:layout_marginEnd="-6dp"
+          android:layout_marginBottom="147dp"
+          android:src="@drawable/vector_1"
+          tools:layout_editor_absoluteX="0dp"
+          tools:layout_editor_absoluteY="-27dp" />
+
+      <TextView
+          android:layout_width="105dp"
+          android:layout_height="44dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginStart="32dp"
+          android:layout_marginLeft="61dp"
+          android:layout_marginTop="49dp"
+          android:layout_marginEnd="274dp"
+          android:layout_marginRight="300dp"
+          android:layout_marginBottom="143dp"
+          android:text="HALLO,"
+          android:textSize="24sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="216dp"
+          android:layout_marginTop="92dp"
+          android:layout_marginEnd="-8dp"
+          android:layout_marginBottom="127dp"
+          android:src="@drawable/vector_1"
+          tools:layout_editor_absoluteX="0dp"
+          tools:layout_editor_absoluteY="-27dp" />
+
+      <TextView
+          android:layout_width="105dp"
+          android:layout_height="44dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="36dp"
+          android:layout_marginTop="86dp"
+          android:layout_marginEnd="268dp"
+          android:layout_marginBottom="106dp"
+          android:text="Arman!"
+          android:textColor="@color/orange"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/imageView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginEnd="-4dp"
+          android:layout_marginBottom="137dp"
+          android:src="@drawable/vector_2" />
+
+   </RelativeLayout>
+
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="244dp"
+       android:layout_height="55dp"
+       android:layout_marginStart="32dp"
+       android:layout_marginEnd="32dp"
+       android:background="@drawable/custom"
+       android:text="Choose Event"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/relativeLayout2"
+       app:layout_constraintVertical_bias="0.294" />
+
+   <Button
+       android:id="@+id/button4"
+       android:layout_width="244dp"
+       android:layout_height="55dp"
+       android:layout_marginStart="32dp"
+       android:layout_marginTop="15dp"
+       android:layout_marginEnd="32dp"
+       android:background="@drawable/custom"
+       android:text="Choose Guest"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.504"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/relativeLayout2"
+       app:layout_constraintVertical_bias="0.397" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="357dp"
+       android:layout_marginBottom="105dp"
+       android:src="@drawable/img_suitmedia"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/relativeLayout2" />
+
+   <ImageView
+       android:id="@+id/imageView5"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_marginBottom="3dp"
+       android:src="@drawable/img_bg_bottom"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

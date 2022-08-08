@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/drawable-anydpi/back.xml" value="0.2265" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/drawable/card.xml" value="0.2265" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/drawable/custom.xml" value="0.536" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/drawable/cxfbc.xml" value="0.2265" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/drawable/location.xml" value="0.2265" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/fragment_coba.xml" value="0.264" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/fragment_empat.xml" value="0.4" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/fragment_hai.xml" value="0.2" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/fragment_lima.xml" value="0.264" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/fragment_tiga.xml" value="0.4" />
+        <entry key="..\:/Users/MyLord/AndroidStudioProjects/designApp/app/src/main/res/layout/ketiga.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
